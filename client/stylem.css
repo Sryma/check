@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+/*navbar css*/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+  color:black;
+}
+h1, h4,h5{
+  text-align: center;
+  font-weight: bold;
+padding-top: 0.2em;
+}
+/*navbar*/
+.navbar, footer{
+	background-color: #17a2b8!important;
+	background-color: #ff8080;!important;*/
+	/*border: 1px solid blue;*/
+	padding: 0.75em;
+}
+a{
+	color: maroon!important;
+	font-weight: bold;
+  font-size: 1.2em;
+}
+/*jumbotron*/
+#jumbotron{
+	margin: 50px auto 0 auto;
+	/*border:5px solid red;*/
+	background: url(images/IMG_5584.GIF) no-repeat ;
+	background-size: cover;
+	
+	background-position: center;
+	height: 700px;
+	width: 100%;
+	
+	
+	}
+/*.jumbotron img{
+	margin: 0 auto;
+	border:5px solid red;
+}*/
+.centered{
+	position: absolute;
+	top: 580px;
+	left: 500px;
+}
+#wrapper{
+	margin-top: 0;
+	background-color: blue;
+}
+#submit{
+	width:60%;
+	background-color: blue;
+	border-radius: 10px;
+}
+#submit:hover{
+	background-color: orange;
+}
+.check{
+	border: 1px solid red;
+}
+.special{
+	font-size: 16px;
+	color: grey;
+}
+.box{
+	border: 2px solid red;
+}
+@media only screen and (max-width: 480px){
+	/*#jumbotron{
+		background-size: contain;
+		height: auto;
+	}*/
+ .centered{
+ 	display:none;
+ }
+}
+@media only screen and (min-width:481px) and (max-width: 768px){
+	/*#jumbotron{
+		background-size: contain;
+		height: auto;
+	}*/
+	/*remember always put two and otherwise design doesnot work*/
+	.centered{
+ 	display:none;
+ }
+}

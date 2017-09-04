@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*navbar css*/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+  color:black;
+}
+h1, h4,h5{
+  text-align: center;
+  font-weight: bold;
+padding-top: 0.2em;
+}
+/*navbar*/
+.navbar, footer{
+	background-color: #17a2b8!important;
+	background-color: #ff8080;!important;*/
+	/*border: 1px solid blue;*/
+	padding: 0.75em;
+}
+a{
+	color: maroon!important;
+	font-weight: bold;
+  font-size: 1.2em;
+}
+/*end of navbar css*/
+/*body*/
+#project{
+	margin-top: 7%;
+}
+.right{
+	height: auto;
+	/*border: 1px solid green;*/
+}
+.middle{
+	height: auto;
+	/*border: 1px solid green;*/
+}
+.left{
+	height: auto;
+	border: 1px solid green;
+}
+.sub{
+	/*border:1px solid red;*/
+	width: 50%;
+}
+div.col-md-3.sub,div.col-md-10.sub span{
+	text-align: center;
+	color: maroon;
+}
+.teacher{
+	width:30%;
+}
